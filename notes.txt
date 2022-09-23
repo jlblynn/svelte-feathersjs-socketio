@@ -1,0 +1,23 @@
+# App using Svelte front-end with feathers.js service
+
+Svelte quickstart:
+  npx degit sveltejs/template my-svelte-project
+  cd my-svelte-project
+
+  npm install
+  npm run dev
+
+Install feathers and socket.io client:
+  npm i @feathersjs/client socket.io-client
+
+Create a 'client.js' file in src.
+This will connect our feathers service and export the client service.
+Copy the code from the feathers API 'Load with a module loader'.
+Configure the backend to communicate with our client using sockets.
+Specify that authentication will be stored in local storage.
+
+
+
+
+
+
